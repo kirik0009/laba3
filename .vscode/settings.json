@@ -1,5 +1,6 @@
 {
     "files.autoSave": "onFocusChange",
     "workbench.colorTheme": "Red",
-    "editor.fontSize": 12
+    "editor.fontSize": 12,
+    "editor.formatOnSaveTimeout": 700
 }
