@@ -5,6 +5,16 @@
         "key": "ctrl+f3",
         "command": "-editor.action.changeAll",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "f g",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
     }
 ]
   
